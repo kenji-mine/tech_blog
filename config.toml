@@ -1,4 +1,4 @@
-baseurl = "https://kenji-mine.github.io/"
+baseurl = "https://kenji-mine.github.io/tech_blog/"
 title = "STS Tech Blog"
 languageCode = "de"
 DefaultContentLanguage = "ja"
