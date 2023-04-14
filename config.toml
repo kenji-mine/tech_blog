@@ -12,9 +12,8 @@ defaultAuthor = "Secom Default"
   bio = "The Scout Master is the leader of this local scout group"
   avatar = "img/avatar.png"
 
-enableGitInfo = true
 [frontmatter]
-  lastmod = ":git"
+  lastmod = ":fileModTime"
 
 [Params]
   description = "Welcome to our blog site!" # Site description. Used in meta description
