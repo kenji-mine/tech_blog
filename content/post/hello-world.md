@@ -9,7 +9,9 @@ tags:
 - tag2
 keywords:
 - tech
+author: "hogehoge"
+
 #thumbnailImage: //example.com/image.jpg
 ---
-初めての投稿
+うははは
 <!--more-->

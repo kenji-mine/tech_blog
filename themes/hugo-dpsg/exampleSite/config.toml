@@ -1,11 +1,9 @@
 baseurl = "https://example.com"
-title = "STS Tech Blog"
+title = "Hugo DPSG"
 languageCode = "de"
-DefaultContentLanguage = "ja"
+DefaultContentLanguage = "de"
 paginate = "10" # Number of posts per page
 theme = "hugo-dpsg"
-
-defaultAuthor = "Secom Default"
 
 [Author] # Used in authorbox
   name = "Scout Master"
@@ -13,8 +11,8 @@ defaultAuthor = "Secom Default"
   avatar = "img/avatar.png"
 
 [Params]
-  description = "Welcome to our blog site!" # Site description. Used in meta description
-  copyright = "SECOM Trust Systems CO.,LTD." # Footer copyright holder, otherwise will use site title
+  description = "Welcome to our scout group!" # Site description. Used in meta description
+  copyright = "DGSP local group" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
@@ -33,8 +31,8 @@ defaultAuthor = "Secom Default"
 [Params.logo]
   image = "img/placeholder.png" # Logo image. Path relative to "static"
   header = "img/header.jpg" # Header image. Path relative to "static"
-  title = "STS Tech Blog" # Logo title, otherwise will use site title
-  subtitle = "Welcome to our site" # Logo subtitle
+  title = "Hugo DPSG" # Logo title, otherwise will use site title
+  subtitle = "Welcome to our group site" # Logo subtitle
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
@@ -66,14 +64,3 @@ defaultAuthor = "Secom Default"
     name = "About"
     url = "/about/"
     weight = 2
-
-# Make sure setting a following option for search bar to work
-[outputs]
-    section = ["JSON", "HTML"]
-    term = ["JSON", "HTML"]
-# If you want to write blogs with multiple people, you can add member informations.
-[Params.Authors]
-    [Params.Authors.hogehoge]
-      name   = "Kenji"
-      bio    = "Kenji is a General Manager of Technology Promotion Department."
-      avatar = "img/pamo.jpg"
