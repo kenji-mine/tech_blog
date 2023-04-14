@@ -14,4 +14,5 @@ author: "hogehoge"
 #thumbnailImage: //example.com/image.jpg
 ---
 うははは
+更新しました
 <!--more-->
