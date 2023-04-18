@@ -80,3 +80,7 @@ defaultAuthor = "Secom Default"
       name   = "Kenji"
       bio    = "Kenji is a General Manager of Technology Promotion Department."
       avatar = "img/pamo.jpg"
+    [Params.Authors.960678]
+      name   = "Kenji"
+      bio    = "Kenji is a General Manager of Technology Promotion Department."
+      avatar = "img/pamo.jpg"
