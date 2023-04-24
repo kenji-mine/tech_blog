@@ -1,4 +1,5 @@
 ---
+isCJKLanguage : true
 title: "Hugoを使って技術ブログを投稿しよう"
 date: 2023-04-18T10:57:35+09:00
 categories:

@@ -2,6 +2,8 @@ baseurl = "https://kenji-mine.github.io/tech_blog/"
 title = "STS Tech Blog"
 languageCode = "de"
 DefaultContentLanguage = "ja"
+summarylength = 50
+hasCJKLanguage = true
 paginate = "10" # Number of posts per page
 theme = "hugo-dpsg"
 
