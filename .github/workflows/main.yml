@@ -21,7 +21,7 @@ jobs:
       - name: Hugo Setup
         uses: kenji-mine/actions-hugo@v2.6.4
         with:
-          hugo-version: 'lastest'
+          hugo-version: 'latest'
       - name: version check
         run: hugo version
 
