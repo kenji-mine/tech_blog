@@ -23,7 +23,7 @@ jobs:
         with:
           hugo-version: '0.110.0'
       - name: version check
-        run: hugo --version
+        run: hugo version
 
       - name: Build
         run: hugo --minify
