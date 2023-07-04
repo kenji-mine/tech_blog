@@ -19,7 +19,7 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       - name: Hugo Setup
-        uses: kenji-mine/actions-hugo@V2.6.1
+        uses: kenji-mine/actions-hugo@v2.6.2
         with:
           hugo-version: '0.110.0'
 
