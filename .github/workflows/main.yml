@@ -24,6 +24,7 @@ jobs:
           hugo-version: '0.110.0'
 
       - name: Build
+        run: hugo --version
         run: hugo --minify
 
 
