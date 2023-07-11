@@ -39,9 +39,7 @@ jobs:
           submodules: recursive
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        uses: actions/configure-pages@v2
       - name: Hugo Setup
         uses: kenji-mine/actions-hugo@v2.4
         with:
